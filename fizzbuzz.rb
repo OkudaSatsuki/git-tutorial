@@ -2,11 +2,11 @@
 
 for i in 1..100 do
 	if (i%3==0 && i%5==0) then
-		puts("fizzbuzz\n")
+		puts("fizzbuzz!\n")
 	elsif (i%3==0) then
-		puts("fizz\n")
+		puts("fizz!\n")
 	elsif (i%5==0) then
-		puts("buzz\n")
+		puts("buzz!\n")
 	else 
 		puts(i)
 	end
